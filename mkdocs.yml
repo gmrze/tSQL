@@ -1,0 +1,14 @@
+site_name: tSQL
+site_description: Templated SQL — a lightweight SQL templating engine
+site_author: Arne K. (TRC-Loop)
+repo_url: https://github.com/gmrze/tSQL
+theme:
+  name: material
+nav:
+  - Home: index.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.superfences
